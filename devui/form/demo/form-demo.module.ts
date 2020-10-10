@@ -81,6 +81,6 @@ import { ValidateDynamicRuleComponent } from './validate-dynamic-rule/validate-d
     ValidateCoordinatedComponent,
     ValidateDynamicRuleComponent,
   ],
-  entryComponents: [ModalOneComponent],
+
 })
 export class FormDemoModule {}

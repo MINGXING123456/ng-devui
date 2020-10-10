@@ -32,10 +32,7 @@ import { ToastModule } from 'ng-devui/toast';
     UploadedFilesComponent,
     FileDropDirective
   ],
-  entryComponents: [
-    MultipleUploadViewComponent,
-    SingleUploadViewComponent
-  ],
+
   providers: [SelectFiles],
 })
 export class UploadModule {

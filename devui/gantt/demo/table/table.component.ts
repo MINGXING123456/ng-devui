@@ -43,7 +43,7 @@ export class TableComponent implements OnInit, AfterViewInit, OnDestroy {
     },
     {
       field: 'gantt',
-      width: this.ganttScaleWidth
+      width: ''
     }
   ];
 

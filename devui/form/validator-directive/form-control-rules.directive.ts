@@ -11,6 +11,7 @@ import { FormItemComponent } from '../form-item.component';
 import { DAsyncValidateRule, dDefaultValidators, DValidateErrorStatus } from './validate.type';
 import { DValidateRule, DValidateRules, DValidationErrorStrategy, ruleReservedWords } from './validate.type';
 
+@Directive()
 export abstract class DAbstractControlRule implements OnChanges {
 
   /* mode is _cd.control */

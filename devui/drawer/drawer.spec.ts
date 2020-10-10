@@ -68,9 +68,7 @@ describe('Drawer', () => {
       declarations: [TestDrawerComponent, DrawerContentComponent],
     }).overrideModule(BrowserDynamicTestingModule, {
       set: {
-        entryComponents: [
-          DrawerContentComponent
-        ]
+
       }
     })
       .compileComponents();
